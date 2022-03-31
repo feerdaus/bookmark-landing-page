@@ -1,0 +1,32 @@
+.header-links {
+  max-width: 457px;
+  width: 100%;
+}
+
+.mobile-nav {
+  max-height: 667px;
+  height: 100vh;
+  background: #242a45;
+  opacity: 0.95;
+  backdrop-filter: blur(32.6194px);
+}
+
+.nav-link {
+  border-top: 1px solid white;
+  padding: 24px 0;
+}
+
+a:hover {
+  color: #fa5959;
+  cursor: pointer;
+}
+
+.social-icons {
+  max-width: 88px;
+  width: 100%;
+}
+
+.social-icon:hover {
+  color: #fa5959;
+  cursor: pointer;
+}
