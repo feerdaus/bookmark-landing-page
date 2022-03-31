@@ -1,0 +1,35 @@
+.footer2 {
+  min-height: 88px;
+  background-color: #242a45;
+}
+
+.content {
+  min-height: 88px;
+}
+
+.footer-list {
+  width: 296px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+@media (max-width: 768px) {
+  /* .footer2 {
+    display: flex;
+    flex-direction: column;
+  } */
+  .footer-list {
+    justify-content: space-between;
+    height: 115px;
+    margin: 2em 0px 2em 0px;
+    width: 88px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

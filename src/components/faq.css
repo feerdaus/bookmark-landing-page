@@ -1,0 +1,22 @@
+.faq {
+  min-height: 600px;
+  height: 100%;
+  max-width: 570px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.questions {
+  border-bottom: 2px solid #979797;
+}
+
+.faq-btn {
+  background-color: #5267df;
+  color: white;
+}
+
+.arrow {
+  width: 36px;
+  height: 36px;
+}
