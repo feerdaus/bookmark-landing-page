@@ -1,0 +1,37 @@
+.hero {
+  min-height: 450px;
+  height: 100%;
+}
+
+.hero-txt {
+  max-width: 540px;
+  left: 135px;
+  top: 73px;
+}
+
+.chrome-btn:hover {
+  background-color: white;
+  color: #5267df;
+  border: 1px solid #5267df;
+}
+
+.firefox-btn {
+  background-color: #f7f7f7;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+}
+
+.firefox-btn:hover {
+  background-color: white;
+  color: #242a45;
+  border: 1px solid #242a45;
+}
+
+@media (max-width: 764px) {
+  .hero-img {
+    margin-right: 0;
+  }
+  h1 {
+    font-size: 30px !important;
+    text-align: center;
+  }
+}
