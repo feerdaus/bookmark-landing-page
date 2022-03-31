@@ -44,7 +44,7 @@ const Header = () => {
   return (
     <header className="py-8">
       {isOpen ? <Drawer setIsOpen={setIsOpen} /> : null}
-      <nav className="container mx-auto px-4 flex justify-between items-center pl-36">
+      <nav className="container mx-auto px-4 flex justify-between items-center md:pl-36">
         <span>{headerLogo}</span>
         <div onClick={() => setIsOpen(true)} className="md:hidden">
           {openNav}
