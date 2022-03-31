@@ -1,0 +1,16 @@
+.faq-item {
+  border-top: 2px solid #979797;
+}
+
+.faq-title:hover {
+  color: #fa5959;
+}
+
+.faq-content {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+}
