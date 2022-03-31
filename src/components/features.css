@@ -1,0 +1,54 @@
+.title {
+  max-width: 540px;
+}
+
+.bookmark {
+  bottom: 100px;
+  left: 730px;
+  max-width: 445px;
+  width: 100%;
+}
+
+.info-btn {
+  background-color: #5267df;
+  color: white;
+}
+
+.features-links {
+  max-width: 730px;
+  border-bottom: 2px solid #e9ebf9;
+}
+
+.features-links p {
+  padding: 16px 0;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.533333px;
+  color: #242a45;
+}
+
+.features-links p:hover,
+.link {
+  border-bottom: 2px solid #fa5959;
+  cursor: pointer;
+  color: #fa5959;
+}
+
+.bookmark p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #242a45;
+}
+
+@media (max-width: 764px) {
+  .features-links p {
+    border-top: 2px solid #e9ebf9;
+  }
+}
