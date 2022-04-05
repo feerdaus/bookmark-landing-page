@@ -13,7 +13,7 @@ const Drawer = ({ setIsOpen }) => {
   return (
     <div className="w-full md:hidden absolute top-0 mobile-nav p-8">
       <div className="container mx-auto">
-        <div className="flex justify-between pb-8">
+        <div className="flex justify-between">
           <span>{navLogo}</span>
           <span onClick={() => setIsOpen(false)}>{closeNav}</span>
         </div>
@@ -44,7 +44,7 @@ const Header = () => {
   return (
     <header className="py-8">
       {isOpen ? <Drawer setIsOpen={setIsOpen} /> : null}
-      <nav className="container mx-auto px-4 flex justify-between items-center md:pl-36">
+      <nav className="container mx-auto px-4 flex justify-between items-center">
         <span>{headerLogo}</span>
         <div onClick={() => setIsOpen(true)} className="md:hidden">
           {openNav}

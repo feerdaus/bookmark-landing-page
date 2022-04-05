@@ -5,8 +5,8 @@ import heroMobile from "./images/hero-mobile.png";
 const Hero = () => {
   return (
     <section className="py-12">
-      <div className="hero container mx-auto md:relative flex flex-col-reverse md:flex-row text-center md:text-left">
-        <div className="hero-txt md:absolute mx-auto px-4">
+      <div className="hero container items-center mx-auto md:relative flex flex-col-reverse md:flex-row text-center md:text-left">
+        <div className="hero-txt px-4">
           <h1>A Simple Bookmark Manager</h1>
           <p className="my-6">
             A clean and simple interface to organize your favourite websites.
