@@ -24,9 +24,9 @@
 }
 
 @media (max-width: 764px) {
-  .hero-img {
+  /* .hero-img {
     margin-right: 0;
-  }
+  } */
   h1 {
     font-size: 30px !important;
     text-align: center;

@@ -60,11 +60,11 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row">
+        <div>
           {slides.map((slide, index) => {
             return (
               <div
-                className={`md:relative pr-4 ${
+                className={` flex flex-col md:flex-row items-center ${
                   panel === index ? "block" : "hidden"
                 }`}
               >
@@ -76,10 +76,10 @@ const Features = () => {
                     height={400}
                   />
                 </div>
-                <div className="md:absolute bookmark text-center mx-auto md:text-left mt-16 md:mt-0">
+                <div className="bookmark px-4 text-center mx-auto md:text-left mt-16 md:mt-0">
                   <h2>{slide.heading}</h2>
                   <p className="my-4">{slide.content}</p>
-                  <button className=" info-btn rounded py-4 px-6">
+                  <button className="info-btn rounded py-4 px-6">
                     More info
                   </button>
                 </div>

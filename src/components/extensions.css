@@ -35,7 +35,7 @@
   border: 1px solid #5267df;
 }
 
-@media (max-width: 764px) {
+@media (max-width: 1024px) {
   .ext {
     height: 1500px;
   }

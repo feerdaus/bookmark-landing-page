@@ -15,7 +15,7 @@ const Extensions = () => {
             you’ve got a favourite you’d like us to prioritize.
           </p>
         </div>
-        <div className="ext-container flex flex-col md:flex-row md:space-x-8 mx-auto mt-12 relative">
+        <div className="ext-container flex flex-col lg:flex-row lg:space-x-8 mx-auto mt-12 relative">
           <div>
             <div className="ext-div">
               <img
